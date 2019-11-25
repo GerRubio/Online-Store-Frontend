@@ -21,6 +21,9 @@ const Navigation = ({ cart }) => (
       <li>
         <NavLink to="/checkout">Checkout</NavLink>
       </li>
+      <li>
+        <NavLink to="/login">Login</NavLink>
+      </li>
     </ul>
   </nav>
 );

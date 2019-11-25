@@ -6,6 +6,7 @@ import CartPage from "./pages/CartPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import OrdersPage from "./pages/OrdersPage";
 import DetailPage from "./pages/DetailPage";
+import AuthPage from "./pages/AuthPage";
 
 const Router = () => (
   <Switch>
@@ -14,6 +15,7 @@ const Router = () => (
     <Route exact path="/checkout" component={CheckoutPage} />
     <Route path="/product/:id" component={DetailPage} />
     <Route path="/orders/:id" component={OrdersPage} />
+    <Route exact path="/login" component={AuthPage} />
   </Switch>
 );
 

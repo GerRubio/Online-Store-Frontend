@@ -27,6 +27,7 @@ function CheckoutForm(props) {
   );
 }
 
+// eslint-disable-next-line
 CheckoutForm = reduxForm({
   form: "checkout"
 })(CheckoutForm);

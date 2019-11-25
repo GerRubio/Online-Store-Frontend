@@ -52,7 +52,7 @@ class Order extends React.Component {
   render() {
     const { order } = this.state;
 
-    return <div>{order ? this.renderOrder() : "Loading..."}</div>;
+    return <div>{order ? this.renderOrder() : "Products purchased correctly"}</div>;
   }
 }
 

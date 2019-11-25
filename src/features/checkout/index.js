@@ -6,7 +6,7 @@ import Cart from "../cart";
 import CheckoutForm from "./form";
 
 function submitOrder(values, cart) {
-  const { mail, name } = values.order;
+  const { name, mail } = values.order;
 
   // API
   fetchApi("post", "http://localhost:8080/v1/add-order", {
