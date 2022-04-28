@@ -1,3 +1,3 @@
-# Online-Store-Frontend
+# Online-Store-Front-end
 
-Frontend of Online Store final proyect of Geeks Hubs.
+Front-end of Online Store final project of Geeks Hubs.
